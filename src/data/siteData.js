@@ -45,8 +45,9 @@ export const BRANCHES = [
     short: "Madurai",
     img: IMG.branch1,
     grad: 0,
-    address: "No. 00, Sample Road, K.K. Nagar, Madurai — 625020", // ★ replace
+    address: "Tuticorin Ring Road, Masthanpati, Madurai – 625 020", // ★ replace
     phone: "tel:+917708318222",
+    phoneNumber: "+91 77083 18222",
     maps: "https://maps.app.goo.gl/9H1xwDxZo1NYsNpr9",
   },
   {
@@ -54,8 +55,9 @@ export const BRANCHES = [
     short: "Southwing Madurai",
     img: IMG.branch2,
     grad: 1,
-    address: "No. 00, Sample Street, Villapuram, Madurai — 625012", // ★ replace
+    address: "41, Madakulam Main Rd, Pasumpon Nagar, Palangantham, Madurai, Tamil Nadu 625003", // ★ replace
     phone: "tel:+917418661222",
+    phoneNumber: "+91 74186 61222",
     maps: "https://maps.app.goo.gl/vWb9iFHrdpMk19gA6",
   },
   {
@@ -63,8 +65,9 @@ export const BRANCHES = [
     short: "Dindigul",
     img: IMG.branch3,
     grad: 2,
-    address: "No. 00, Sample Salai, GTN Road, Dindigul — 624005", // ★ replace
+    address: "10, Palani Rd, New Agraharam, Govindapuram, Dindigul, Tamil Nadu 624001", // ★ replace
     phone: "tel:+917845464333",
+    phoneNumber: "+91 78454 64333",
     maps: "https://maps.app.goo.gl/n4oeaCTqyG65o9PJ9",
   },
   {
@@ -72,8 +75,9 @@ export const BRANCHES = [
     short: "Thanjavur",
     img: IMG.branch4,
     grad: 0,
-    address: "No. 00, Sample Main Road, Medical College Rd, Thanjavur — 613007", // ★ replace
+    address: "21/3082, 1st St, VOC Nagar, Parisutham Nagar, Thanjavur, Tamil Nadu 613007", // ★ replace
     phone: "tel:+918220542555",
+    phoneNumber: "+91 82205 42555",
     maps: "https://maps.app.goo.gl/CCzPXkhzDNju49dj6",
   },
 ];
@@ -90,7 +94,7 @@ export const INFRA = [
 
 /* social / quick-action links — replace with Rio's real URLs */
 export const LINKS = {
-  phone: "tel:+910000000000",
+  phone: "tel:+917708318222",
   maps: "https://maps.google.com/?q=Rio+Children's+Hospital+Madurai",
   instagram: "https://instagram.com/riochildrenshospital",
   youtube: "https://youtube.com/@riochildrenshospital",

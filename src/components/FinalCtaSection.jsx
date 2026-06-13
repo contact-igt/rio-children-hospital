@@ -11,7 +11,7 @@ export default function FinalCtaSection() {
               care, and complete women and child healthcare services.
             </p>
             <div className="cta-pair center">
-              <a className="btn btn-pink btn-lg" href="tel:+910000000000">
+              <a className="btn btn-pink btn-lg" href="tel:+917708318222">
                 <span className="btn-ic"><PhoneIc /></span>
                 Call Emergency Care Now
               </a>
