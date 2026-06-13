@@ -27,7 +27,7 @@ export default function DirectionsSection() {
                   <p className="dir-addr">{b.address}</p>
                   <ul className="dir-meta">
                     <li><i>🕐</i> Emergency, NICU &amp; PICU — 24/7</li>
-                    <li><i>📞</i> +91 00000 00000</li>
+                    <li><i>📞</i> {b?.phoneNumber}</li>
                   </ul>
                   <div className="dir-cta">
                     <a className="btn btn-sm" href={b.maps} target="_blank" rel="noreferrer">

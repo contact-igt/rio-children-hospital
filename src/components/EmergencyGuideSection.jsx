@@ -40,7 +40,7 @@ export default function EmergencyGuideSection() {
           </div>
 
           <Reveal delay={120} className="center mt-32">
-            <a className="btn btn-pink btn-lg" href="tel:+910000000000">
+            <a className="btn btn-pink btn-lg" href="tel:+917708318222">
               <span className="btn-ic"><PhoneIc /></span>
               Need urgent help? Call Rio Emergency Care Now
             </a>

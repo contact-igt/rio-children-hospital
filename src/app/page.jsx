@@ -24,7 +24,7 @@ export default function HomePage() {
         <span className="estrip-dot" />
         <span>
           24/7 Emergency - NICU - PICU&nbsp;-&nbsp;
-          <a href="tel:+910000000000">Call now: +91 00000 00000</a>
+          <a href="tel:+917708318222">Call now: +91 77083 18222</a>
         </span>
       </div>
 
