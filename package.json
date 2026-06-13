@@ -1,0 +1,29 @@
+{
+  "name": "rio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint .",
+    "start": "next start"
+  },
+  "dependencies": {
+    "formik": "^2.4.9",
+    "next": "^16.2.9",
+    "react": "^19.2.6",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.2.6",
+    "vercel": "^54.12.2",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0"
+  }
+}
