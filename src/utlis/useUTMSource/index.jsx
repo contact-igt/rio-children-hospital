@@ -14,6 +14,7 @@ export default function useUTMSource() {
         utm_term: params.get("utm_term"),
         utm_content: params.get("utm_content"),
       };
+      const hasExplicitUtm = Object.values(utmData).some(Boolean);
 
       const utmMap = {
         fb: "facebook.com",
@@ -66,7 +67,7 @@ export default function useUTMSource() {
       // Safe localStorage write
       Object.entries(utmData).forEach(([key, value]) => {
         try {
-          if (!localStorage.getItem(key)) {
+          if (hasExplicitUtm || !localStorage.getItem(key)) {
             localStorage.setItem(key, value);
           }
         } catch (e) {

@@ -22,7 +22,7 @@ export default function StatsSection() {
                     scrollSpyOnce
                   />
                 </strong>
-                <span>{s.label}</span>
+                <span className="label">{s.label}</span>
               </Reveal>
             ))}
           </div>

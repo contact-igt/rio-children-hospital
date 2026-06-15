@@ -1,4 +1,5 @@
 import Script from "next/script";
+import UTMSourceTracker from "../components/UTMSourceTracker";
 import "./globals.css";
 
 const GTM_ID = "GTM-5DS2V32X";
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
+        <UTMSourceTracker />
         {children}
       </body>
     </html>
