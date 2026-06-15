@@ -35,7 +35,7 @@ export default function Header() {
         <a href={anchorHref("branches")}>Branches</a>
         <a href={anchorHref("faq")}>FAQ</a>
       </nav>
-      <a className="btn btn-pink" href={anchorHref("book")}>
+      <a className="btn btn-pink" href={anchorHref("booking")}>
         Book an appointment
       </a>
     </header>

@@ -15,7 +15,7 @@ export default function FinalCtaSection() {
                 <span className="btn-ic"><PhoneIc /></span>
                 Call Emergency Care Now
               </a>
-              <a className="btn btn-ghost btn-lg" href="#book">
+              <a className="btn btn-ghost btn-lg" href="#booking">
                 Book an Appointment
               </a>
             </div>

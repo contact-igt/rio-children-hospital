@@ -38,7 +38,7 @@ export default function BranchesSection() {
               <span className="btn-ic"><PhoneIc /></span>
               Call Now for Emergency Guidance
             </a>
-            <a className="btn" href="#book">
+            <a className="btn" href="#booking">
               Book Appointment at Nearest Branch
             </a>
           </Reveal>

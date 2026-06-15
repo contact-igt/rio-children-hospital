@@ -20,9 +20,9 @@ export const IMG = {
 
 
   /* 2. HERO TRUST STACK — 3 tiny circular photos (happy families / doctors) */
-  g1: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=700&q=80",
-  g3: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=80",
-  g4: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&w=700&q=80",
+  g1: "/assets/person1.png",
+  g3: "/assets/person2.png",
+  g4: "/assets/person3.png",
 
   /* 3. EMERGENCY GUIDE CARDS — newborn / child / pregnant mother */
   newborn: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=900&q=80",
@@ -46,6 +46,7 @@ export const BRANCHES = [
     img: IMG.branch1,
     grad: 0,
     address: "Tuticorin Ring Road, Masthanpati, Madurai – 625 020", // ★ replace
+    emergency: "Emergency, Women, & Child -NICU & PICU — 24/7",
     phone: "tel:+917708318222",
     phoneNumber: "+91 77083 18222",
     maps: "https://maps.app.goo.gl/9H1xwDxZo1NYsNpr9",
@@ -56,6 +57,7 @@ export const BRANCHES = [
     img: IMG.branch2,
     grad: 1,
     address: "41, Madakulam Main Rd, Pasumpon Nagar, Palangantham, Madurai, Tamil Nadu 625003", // ★ replace
+    emergency: "Emergency, Women, & Child -NICU & PICU — 24/7",
     phone: "tel:+917418661222",
     phoneNumber: "+91 74186 61222",
     maps: "https://maps.app.goo.gl/vWb9iFHrdpMk19gA6",
@@ -66,6 +68,7 @@ export const BRANCHES = [
     img: IMG.branch3,
     grad: 2,
     address: "10, Palani Rd, New Agraharam, Govindapuram, Dindigul, Tamil Nadu 624001", // ★ replace
+    emergency: "Emergency, NICU & PICU — 24/7",
     phone: "tel:+917845464333",
     phoneNumber: "+91 78454 64333",
     maps: "https://maps.app.goo.gl/n4oeaCTqyG65o9PJ9",
@@ -76,6 +79,7 @@ export const BRANCHES = [
     img: IMG.branch4,
     grad: 0,
     address: "21/3082, 1st St, VOC Nagar, Parisutham Nagar, Thanjavur, Tamil Nadu 613007", // ★ replace
+    emergency: "Emergency, Women, & Child -NICU & PICU — 24/7",
     phone: "tel:+918220542555",
     phoneNumber: "+91 82205 42555",
     maps: "https://maps.app.goo.gl/CCzPXkhzDNju49dj6",
@@ -168,7 +172,6 @@ export const WHY = [
   {
     t: "Advanced NICU Care",
     d: "Equipped for premature babies, critically ill newborns, jaundice care, ventilator support and specialised neonatal treatment.",
-    dark: true,
   },
   {
     t: "Paediatric Intensive Care",

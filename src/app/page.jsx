@@ -42,7 +42,7 @@ export default function HomePage() {
         <TeamSection />
         <BranchesSection />
         <InfrastructureSection />
-        <BookingSection />
+        {/* <BookingSection /> */}
         <FaqSection />
         <DirectionsSection />
         <FinalCtaSection />

@@ -14,7 +14,7 @@ export default function TeamSection() {
                 specialists, emergency doctors and super-speciality consultants
                 to provide coordinated care for women and children.
               </p>
-              <a className="btn mt-24" href="#book">
+              <a className="btn mt-24" href="#booking">
                 Speak to Our Care Team <span className="arr">↗</span>
               </a>
             </Reveal>

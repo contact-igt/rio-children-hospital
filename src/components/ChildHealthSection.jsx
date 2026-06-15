@@ -20,7 +20,7 @@ export default function ChildHealthSection() {
                   </li>
                 ))}
               </ul>
-              <a className="btn mt-24" href="#book">
+              <a className="btn mt-24" href="#booking">
                 Book a Paediatric Consultation <span className="arr">↗</span>
               </a>
             </Reveal>
