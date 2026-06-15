@@ -27,7 +27,7 @@ export default function MaternitySection() {
                   </li>
                 ))}
               </ul>
-              <a className="btn mt-24" href="#book">
+              <a className="btn mt-24" href="#booking">
                 Book a Women's Health Consultation <span className="arr">↗</span>
               </a>
             </Reveal>

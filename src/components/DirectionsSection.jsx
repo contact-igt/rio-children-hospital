@@ -26,7 +26,7 @@ export default function DirectionsSection() {
                   </div>
                   <p className="dir-addr">{b.address}</p>
                   <ul className="dir-meta">
-                    <li><i>🕐</i> Emergency, NICU &amp; PICU — 24/7</li>
+                    <li><i>🕐</i> {b?.emergency}</li>
                     <li><i>📞</i> {b?.phoneNumber}</li>
                   </ul>
                   <div className="dir-cta">

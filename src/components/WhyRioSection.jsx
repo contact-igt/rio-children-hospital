@@ -1,7 +1,15 @@
+"use client";
+
+import { useState } from "react";
 import { WHY } from "../data/siteData";
 import { Pill, Reveal } from "./common";
 
 export default function WhyRioSection() {
+  const defaultActiveIndex = WHY.findIndex((w) => w.dark);
+  const [activeIndex, setActiveIndex] = useState(
+    defaultActiveIndex >= 0 ? defaultActiveIndex : null,
+  );
+
   return (
         <section className="section section-tint">
           <div className="sec-head">
@@ -21,7 +29,20 @@ export default function WhyRioSection() {
           <div className="why-grid">
             {WHY.map((w, i) => (
               <Reveal key={w.t} delay={(i % 3) * 90}>
-                <article className={`why ${w.dark ? "why-dark" : ""}`}>
+                <article
+                  className={`why ${w.dark ? "why-dark" : ""} ${
+                    activeIndex === i ? "why-active" : ""
+                  }`}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => setActiveIndex(i)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      setActiveIndex(i);
+                    }
+                  }}
+                >
                   <span className="why-num">{String(i + 1).padStart(2, "0")}</span>
                   <h3>{w.t}</h3>
                   <p>{w.d}</p>

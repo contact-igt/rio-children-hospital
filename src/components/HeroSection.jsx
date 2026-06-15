@@ -30,7 +30,7 @@ export default function HeroSection() {
                     <span className="btn-ic"><PhoneIc /></span>
                     Call Emergency Care Now
                   </a>
-                  <a className="btn btn-ghost btn-lg" href="#book">
+                  <a className="btn btn-ghost btn-lg" href="#booking">
                     Book an Appointment
                   </a>
                 </div>
@@ -43,7 +43,7 @@ export default function HeroSection() {
                     <Img src={IMG.g1} grad={2} className="tava" />
                   </span>
                   <span className="ttext">
-                    Trusted by <strong>1 Lac+ families</strong> across
+                    Trusted by <strong>1 Lac+ families</strong>{" "} across
                     Tamil&nbsp;Nadu for women &amp; child healthcare
                   </span>
                 </div>

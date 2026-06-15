@@ -40,7 +40,7 @@ export default function HeroForm() {
     ) : null;
 
   return (
-    <div className="hform">
+    <div className="hform" id="booking">
       <div className="hform-head">
         <h3>Get a call back</h3>
         <span className="chip chip-static">
