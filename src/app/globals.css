@@ -1881,7 +1881,7 @@ h2 {
 
 @media (max-width: 599px) {
   .estrip {
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     line-height: 1.45;
     font-size: 11px;
