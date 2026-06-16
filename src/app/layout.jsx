@@ -1,5 +1,6 @@
 import Script from "next/script";
 import UTMSourceTracker from "../components/UTMSourceTracker";
+import ClarityScript from "../components/ClarityScript";
 import "./globals.css";
 
 const GTM_ID = "GTM-5DS2V32X";
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','${GTM_ID}');
           `}
         </Script>
+        <ClarityScript />
       </head>
       <body>
         <noscript>
